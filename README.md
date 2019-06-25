@@ -9,8 +9,8 @@ The documentation discusses the Azure environment design pattern and the configu
 
 The following diagram shows a generic topology using a single firewall pair between a set of load balancers: a public and an internal load balancer. The public facing load balancer (standard SKU) load balances traffic through the VM-series untrust interface while the internal load balancer does it through the dmz interfaces. The dmz interfaces support direct traffic from om-prem and azure VNETs.  
 
-![alt_text](https://github.com/icloudusr/Azure/blob/master/1-arm/1-armdet.png)
+![alt_text](https://github.com/icloudusr/azure-1-arm/blob/master/single_pair/1-armgen.png)
 
 The following diagram shows a more detailed topology which incudes specific IP addresses used to bring up a testing topology and to validate the working of the 1-arm mode environment. Note that the VM-series include public IP addresses both on the mgmt and untrust interfaces.
 
-![alt_text](https://github.com/icloudusr/Azure/blob/master/1-arm/1-armgen.png)
+![alt_text](https://github.com/icloudusr/azure-1-arm/blob/master/single_pair/1-armdet.png)

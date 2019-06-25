@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eea38375-6c46-417f-8c68-482534ad7163" name="Default Changelist" comment="" />
+    <list default="true" id="eea38375-6c46-417f-8c68-482534ad7163" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,12 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" column="101" selection-start-line="3" selection-start-column="101" selection-end-line="3" selection-end-column="101" />
+              <first_editor relative-caret-position="225">
+                <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single_pair/.meta-cnc.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -119,15 +122,15 @@
         <option value="$PROJECT_DIR$/single_pair/services.xml" />
         <option value="$PROJECT_DIR$/single_pair/vrs.xml" />
         <option value="$PROJECT_DIR$/single_pair/zones.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/single_pair/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1927" />
-    <option name="y" value="239" />
+    <option name="x" value="1926" />
+    <option name="y" value="238" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -184,15 +187,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1927" y="239" width="1400" height="1000" extended-state="0" />
+    <frame x="1926" y="238" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3299435" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -279,16 +283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="101" selection-start-line="3" selection-start-column="101" selection-end-line="3" selection-end-column="101" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/single_pair/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -314,6 +308,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
