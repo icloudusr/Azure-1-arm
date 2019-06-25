@@ -81,6 +81,7 @@ variables:
         value: 23
       - key: ssh24
         value: 24
+
 # ---------------------------------------------------------------------
 # end of variables section
 
@@ -110,5 +111,6 @@ snippets:
   - name: service_objects
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/service
     file: services.xml
+
 # ---------------------------------------------------------------------
 # end of snippets section
