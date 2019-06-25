@@ -1,0 +1,164 @@
+<entry name="OutboundAll">
+  <source-translation>
+    <dynamic-ip-and-port>
+      <interface-address>
+        <interface>ethernet1/1</interface>
+      </interface-address>
+    </dynamic-ip-and-port>
+  </source-translation>
+  <to>
+    <member>untrust</member>
+  </to>
+  <from>
+    <member>dmz</member>
+  </from>
+  <source>
+    <member>any</member>
+  </source>
+  <destination>
+    <member>any</member>
+  </destination>
+  <service>any</service>
+</entry>
+<entry name="InboundNATApp1">
+  <source-translation>
+    <dynamic-ip-and-port>
+      <interface-address>
+        <interface>ethernet1/2</interface>
+      </interface-address>
+    </dynamic-ip-and-port>
+  </source-translation>
+  <destination-translation>
+    <translated-port>80</translated-port>
+    <translated-address>10.231.1.4</translated-address>
+  </destination-translation>
+  <to>
+    <member>untrust</member>
+  </to>
+  <from>
+    <member>untrust</member>
+  </from>
+  <source>
+    <member>any</member>
+  </source>
+  <destination>
+    <member>{{ publiclbip }}</member>
+  </destination>
+  <service>{{ httpserviceports }}</service>
+</entry>
+<entry name="InboundNATApp1Ssh">
+  <source-translation>
+    <dynamic-ip-and-port>
+      <interface-address>
+        <interface>ethernet1/2</interface>
+      </interface-address>
+    </dynamic-ip-and-port>
+  </source-translation>
+  <destination-translation>
+    <translated-port>22</translated-port>
+    <translated-address>10.231.1.4</translated-address>
+  </destination-translation>
+  <to>
+    <member>untrust</member>
+  </to>
+  <from>
+    <member>untrust</member>
+  </from>
+  <source>
+    <member>{{ myipaddress }}</member>
+  </source>
+  <destination>
+    <member>{{ publiclbip }}</member>
+  </destination>
+  <service>{{ sshserviceport }}</service>
+</entry>
+<entry name="InboundNATApp2">
+  <source-translation>
+    <dynamic-ip-and-port>
+      <interface-address>
+        <interface>ethernet1/2</interface>
+      </interface-address>
+    </dynamic-ip-and-port>
+  </source-translation>
+  <destination-translation>
+    <translated-port>80</translated-port>
+    <translated-address>10.232.1.4</translated-address>
+  </destination-translation>
+  <to>
+    <member>untrust</member>
+  </to>
+  <from>
+    <member>untrust</member>
+  </from>
+  <source>
+    <member>any</member>
+  </source>
+  <destination>
+    <member>{{ publiclbip }}</member>
+  </destination>
+  <service>{{ httpserviceports }}</service>
+</entry>
+<entry name="InboundNATApp2Ssh">
+  <source-translation>
+    <dynamic-ip-and-port>
+      <interface-address>
+        <interface>ethernet1/2</interface>
+      </interface-address>
+    </dynamic-ip-and-port>
+  </source-translation>
+  <destination-translation>
+    <translated-port>22</translated-port>
+    <translated-address>10.232.1.4</translated-address>
+  </destination-translation>
+  <to>
+    <member>untrust</member>
+  </to>
+  <from>
+    <member>untrust</member>
+  </from>
+  <source>
+    <member>{{ myipaddress }}</member>
+  </source>
+  <destination>
+    <member>{{ publiclbip }}</member>
+  </destination>
+  <service>{{ sshserviceport }}</service>
+</entry>
+<entry name="NoNATProbeInt">
+  <to>
+    <member>dmz</member>
+  </to>
+  <from>
+    <member>dmz</member>
+  </from>
+  <source>
+    <member>{{ lbprobeip }}</member>
+  </source>
+  <destination>
+    <member>{{ fwdmzprivateip }}</member>
+  </destination>
+  <service>any</service>
+  <disabled>no</disabled>
+  <source-translation>
+    <static-ip>
+      <translated-address>{{ lbprobeip }}</translated-address>
+      <bi-directional>no</bi-directional>
+    </static-ip>
+  </source-translation>
+</entry>
+<entry name="NoNATProbeExt">
+  <to>
+    <member>untrust</member>
+  </to>
+  <from>
+    <member>untrust</member>
+  </from>
+  <source>
+    <member>{{ lbprobeip }}</member>
+  </source>
+  <destination>
+    <member>{{ fwuntrustprivateip }}</member>
+  </destination>
+  <service>any</service>
+  <disabled>no</disabled>
+</entry>

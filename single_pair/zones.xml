@@ -1,0 +1,16 @@
+  <entry name="dmz">
+    <network>
+      <layer3>
+        <member>ethernet1/2</member>
+      </layer3>
+    </network>
+    <enable-user-identification>yes</enable-user-identification>
+  </entry>
+  <entry name="untrust">
+    <network>
+      <layer3>
+        <member>ethernet1/1</member>
+      </layer3>
+    </network>
+    <enable-user-identification>yes</enable-user-identification>
+  </entry>

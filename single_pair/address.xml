@@ -1,0 +1,15 @@
+  <entry name="LbProbeIP">
+    <ip-netmask>168.63.129.16</ip-netmask>
+  </entry>
+  <entry name="fw1-eth1">
+    <ip-netmask>10.230.1.5</ip-netmask>
+  </entry>
+  <entry name="fw1-eth2">
+    <ip-netmask>10.230.5.5</ip-netmask>
+  </entry>
+  <entry name="PublicLB">
+    <ip-netmask>52.180.88.100/32</ip-netmask>
+  </entry>
+  <entry name="MyIPAddress">
+    <ip-netmask>68.15.90.134/32</ip-netmask>
+  </entry>

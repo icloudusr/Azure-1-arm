@@ -1,0 +1,7 @@
+<entry name="ProbeSSH">
+    <ssh>yes</ssh>
+    <ping>no</ping>
+    <permitted-ip>
+      <entry name="168.63.129.16"/>
+    </permitted-ip>
+</entry>

@@ -1,0 +1,114 @@
+Results for skeleton template for an xml yaml metafile
+Rendered Output
+# skillet preamble information used by panhandler
+# ---------------------------------------------------------------------
+# unique snippet name
+name: single_pair
+# label used for menu selection
+label: Azure-1-arm
+description: Uploads a 1-arm VM-Series configuration set in an Azure FW.
+
+# type of device configuration
+# common types are panorama, panos, and template
+# https://github.com/PaloAltoNetworks/panhandler/blob/develop/docs/metadata_configuration.rst
+type: panos
+# preload static or default-based templates
+extends:
+
+# grouping of like snippets for dynamic menu creation in panhandler
+labels:
+  collection:
+    - AzureCollection
+
+# ---------------------------------------------------------------------
+# end of preamble section
+
+# variables section
+# ---------------------------------------------------------------------
+# variables used in the configuration templates
+# type_hint defines the form field used by panhandler
+# type_hints can be text, ip_address, or dropdown
+variables:
+  - name: myipaddress
+    description: source ip address to test inbound traffic
+    default: 0.0.0.0/0
+    type_hint: CIDR
+  - name: lbprobeip
+    description: Azure LB probe ip address
+    default: 168.63.129.16
+    type_hint: CIDR
+  - name: publiclbip
+    description: frontend ip address of Azure public load balancer
+    default:
+    type_hint: CIDR
+  - name: servicesshprobe
+    description: LB probe protocol/port number
+    default: 22
+    type_hint: port#
+  - name: fwuntrustprivateip
+    description: List of firewall intrust interfaces private ip
+    default: choices
+    type_hint: dropdown
+    dd_list:
+      - key: fw1
+        value: fw1
+      - key: fw2
+        value: fw2
+  - name: fwdmzprivateip
+    description: List of firewall intrust interfaces private ip
+    default: choices
+    type_hint: dropdown
+    dd_list:
+      - key: fw1
+        value: fw1
+      - key: fw2
+        value: fw2
+  - name: httpserviceports
+    description: Port numbers used to test data path inbound traffic
+    default: choices
+    type_hint: dropdown
+    dd_list:
+      - key: http81
+        value: 81
+      - key: http82
+        value: 82
+  - name: sshserviceports
+    description: Port numbers used to access backend test servers
+    default: choices
+    type_hint: dropdown
+    dd_list:
+      - key: ssh23
+        value: 23
+      - key: ssh24
+        value: 24
+# ---------------------------------------------------------------------
+# end of variables section
+
+# snippets section
+# ---------------------------------------------------------------------
+# snippets used for api configuration including xpath and element as file name
+# files will load in the order listed
+snippets:
+  - name: mgmt_profile
+    xpath: /config/devices/entry[@name='localhost.localdomain']/network/profiles/interface-management-profile
+    file: mgmtprofile.xml
+  - name: security_zones
+    xpath: config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/zone
+    file: zones.xml
+  - name: virtual_routers
+    xpath: /config/devices/entry[@name='localhost.localdomain']/network/virtual-router
+    file: vrs.xml
+  - name: nat_rules
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/nat
+    file: nat.xml
+  - name: security_rules
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security
+    file: rules.xml
+  - name: address_objects
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/address
+    file: address.xml
+  - name: service_objects
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/service
+    file: services.xml
+# ---------------------------------------------------------------------
+# end of snippets section

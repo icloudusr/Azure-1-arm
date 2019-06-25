@@ -1,0 +1,50 @@
+  <entry name="service-ssh-probe">
+    <protocol>
+      <tcp>
+        <port>22</port>
+        <override>
+          <no/>
+        </override>
+      </tcp>
+    </protocol>
+  </entry>
+  <entry name="http81">
+    <protocol>
+      <tcp>
+        <port>81</port>
+        <override>
+          <no/>
+        </override>
+      </tcp>
+    </protocol>
+  </entry>
+  <entry name="http82">
+    <protocol>
+      <tcp>
+        <port>82</port>
+        <override>
+          <no/>
+        </override>
+      </tcp>
+    </protocol>
+  </entry>
+  <entry name="ssh23">
+    <protocol>
+      <tcp>
+        <port>23</port>
+        <override>
+          <no/>
+        </override>
+      </tcp>
+    </protocol>
+  </entry>
+  <entry name="ssh24">
+    <protocol>
+      <tcp>
+        <port>24</port>
+        <override>
+          <no/>
+        </override>
+      </tcp>
+    </protocol>
+  </entry>
