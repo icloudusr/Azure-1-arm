@@ -3,7 +3,7 @@ Rendered Output
 # skillet preamble information used by panhandler
 # ---------------------------------------------------------------------
 # unique snippet name
-name: single_pair
+name: singlepair
 # label used for menu selection
 label: Azure-1-arm
 description: Uploads a 1-arm VM-Series configuration set in an Azure FW.

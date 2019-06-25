@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eea38375-6c46-417f-8c68-482534ad7163" name="Default Changelist" comment="" />
+    <list default="true" id="eea38375-6c46-417f-8c68-482534ad7163" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/single_pair/.meta-cnc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/single_pair/.meta-cnc.yaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/single_pair/.meta-cnc.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="285">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -111,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/single_pair/.meta-cnc.yaml" />
         <option value="$PROJECT_DIR$/single_pair/nat.xml" />
         <option value="$PROJECT_DIR$/single_pair/rules.xml" />
         <option value="$PROJECT_DIR$/single_pair/address.xml" />
@@ -122,6 +123,7 @@
         <option value="$PROJECT_DIR$/single_pair/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/single_pair/.meta-cnc.yaml" />
       </list>
     </option>
   </component>
@@ -184,7 +186,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1926" y="238" width="1400" height="1000" extended-state="0" />
+    <frame x="1925" y="237" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -313,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/single_pair/.meta-cnc.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
