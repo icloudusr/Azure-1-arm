@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eea38375-6c46-417f-8c68-482534ad7163" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_pair/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="eea38375-6c46-417f-8c68-482534ad7163" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/single_pair/.meta-cnc.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -121,7 +126,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1928" />
+    <option name="x" value="1927" />
     <option name="y" value="239" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -140,11 +145,6 @@
             <path>
               <item name="azure-1-arm" type="b2602c69:ProjectViewProjectNode" />
               <item name="azure-1-arm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="azure-1-arm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azure-1-arm" type="462c0819:PsiDirectoryNode" />
-              <item name="single_pair" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,8 +184,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1928" y="239" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="1927" y="239" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
@@ -237,13 +236,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.meta-cnc.yaml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/single_pair/.meta-cnc.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single_pair/mgmtprofile.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -315,6 +307,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single_pair/.meta-cnc.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
